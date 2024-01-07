@@ -1,0 +1,5 @@
+package com.hotel.service.payLoad;
+
+public class ApiResponse {
+
+}

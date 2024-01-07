@@ -1,0 +1,33 @@
+package com.user.service;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+
+import com.user.service.entities.Rating;
+import com.user.service.external.services.RatingService;
+
+@SpringBootTest
+class UserServiceApplicationTests {
+
+	@Test
+	void contextLoads() {
+	}
+	
+	@Autowired
+	private RatingService ratingService;
+	
+	@Test
+	void createRating()
+	{
+		Rating rating =new Rating();
+		rating.setFeedback("this is good hotel");
+		rating.setHotelId("");
+		rating.setUserId("");		
+		rating.setRating(8);
+		
+		System.out.println("this is unit testing of post method");
+		ratingService.create(rating);
+	}
+
+}

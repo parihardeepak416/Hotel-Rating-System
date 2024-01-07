@@ -1,0 +1,20 @@
+package com.hotel.service.services;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.hotel.service.entities.Hotel;
+
+@Service
+public interface HotelService {
+
+	//create
+	Hotel createHotel(HotelService hotel);
+	
+	//getAll
+	List<Hotel> getAllHotels();
+	
+	//get
+	Hotel getHotel(String hotelId);
+}

@@ -1,0 +1,7 @@
+
+—
+java:S1488"_Immediately return this expression instead of assigning it to the temporary variable "ratings".(ØÕ€øÿÿÿÿ8ô¾‹Ö­1H¦RMINORZ
+CODE_SMELL
+•
+java:S1488"bImmediately return this expression instead of assigning it to the temporary variable "saverating".(Ò§Ğ¶8ô¾‹Ö­1H£RMINORZ
+CODE_SMELL

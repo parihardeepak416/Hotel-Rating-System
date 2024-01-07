@@ -1,0 +1,11 @@
+package com.user.service.entities;
+
+import javax.persistence.Id;
+
+public class Rating {
+ 
+	@Id
+	private String ratingId;
+	private String feedback;
+	
+}

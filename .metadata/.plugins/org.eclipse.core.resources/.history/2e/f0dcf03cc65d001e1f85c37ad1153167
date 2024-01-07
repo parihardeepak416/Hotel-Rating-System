@@ -1,0 +1,8 @@
+package com.rating.service.entities;
+
+
+public class Rating {
+
+	private String ratingId;
+	private String name;
+}

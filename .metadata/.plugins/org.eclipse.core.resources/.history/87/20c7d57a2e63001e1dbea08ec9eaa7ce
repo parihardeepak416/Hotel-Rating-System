@@ -1,0 +1,5 @@
+package com.Gateway.controllers;
+
+public class AuthController {
+
+}

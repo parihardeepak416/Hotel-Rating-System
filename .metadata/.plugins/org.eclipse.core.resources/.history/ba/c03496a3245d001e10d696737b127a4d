@@ -1,0 +1,6 @@
+package com.hotel.service.entities;
+
+public class Hotel {
+	
+
+}

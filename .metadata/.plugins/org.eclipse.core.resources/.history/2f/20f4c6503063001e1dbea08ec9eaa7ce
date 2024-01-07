@@ -1,0 +1,5 @@
+package com.Gateway.config;
+
+public class SecurityConfig {
+
+}
